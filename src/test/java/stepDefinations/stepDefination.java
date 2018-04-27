@@ -99,6 +99,7 @@ public class stepDefination {
     @When("^Browser is triggered$")
     public void browser_is_triggered() throws Throwable {
     	System.out.println("broswer loads");
+    	System.out.println("broswer loads2");
 
     }
 

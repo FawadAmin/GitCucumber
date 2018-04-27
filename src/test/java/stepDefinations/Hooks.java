@@ -35,6 +35,7 @@ public class Hooks {
 	public void AfterHooksWeb () {
 	System.out.println("Close Browser using Icon");
 	System.out.println("Delete Browser Cookies");
+	driver.quit();
 	}
 	
 	
