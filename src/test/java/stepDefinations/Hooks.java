@@ -40,6 +40,8 @@ public class Hooks {
 	System.out.println("Close Browser using Icon");
 	System.out.println("Delete Browser Cookies");
 	System.out.println("adding random tests");
+	System.out.println("adding random tests new");
+
 	driver.quit();
 	}
 	
@@ -47,12 +49,14 @@ public class Hooks {
 	@Before("@RegressionTest")
 	public void OpenBrowser() {
 		System.setProperty("webdriver.chrome.driver", "/Users/fawad/Downloads/chromedriver");
+		System.out.println("adding random tests new");
 		driver = new ChromeDriver();
 		
 	}
 	
 	@After("@RegressionTest")
 	public void CloseBrowser() {
+		System.out.println("adding random tests new");
 		driver.close();
 		
 	}
