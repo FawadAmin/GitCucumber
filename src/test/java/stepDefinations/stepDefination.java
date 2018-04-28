@@ -93,6 +93,8 @@ public class stepDefination {
     @Given("^User opens chrome browser$")
     public void user_opens_chrome_browser() throws Throwable {
     	System.out.println("user click chrome icon");
+    	System.out.println("user click chrome icon");
+
 
     }
 

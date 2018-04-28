@@ -21,6 +21,10 @@ public class Hooks {
 	@After("@MobileTest")
 	public void AfterHooksMobile () {
 	System.out.println("Close Moile App using Icon");
+	System.out.println("Close Moile App using Icon");
+	System.out.println("Close Moile App using Icon");
+
+	
 	}
 	
 	@Before("@WebTest")
@@ -35,6 +39,7 @@ public class Hooks {
 	public void AfterHooksWeb () {
 	System.out.println("Close Browser using Icon");
 	System.out.println("Delete Browser Cookies");
+	System.out.println("adding random tests");
 	driver.quit();
 	}
 	
